@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B360836519B02FA61E6BDE /* libPods-QFReactiveCocoaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 721776DFB49EB04F9B1EBC91 /* libPods-QFReactiveCocoaDemo.a */; };
+		5F2A037D767EF3468A11C102 /* libPods-QFReactiveCocoaDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A9B393C254D5883FB0BE06 /* libPods-QFReactiveCocoaDemoTests.a */; };
+		F5FBBC32DCAB28595266A51D /* libPods-QFReactiveCocoaDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50240060325897173EAE42DC /* libPods-QFReactiveCocoaDemoUITests.a */; };
 		FD618AFE20A98509003FCF9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD618AFD20A98509003FCF9F /* AppDelegate.m */; };
 		FD618B0120A98509003FCF9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD618B0020A98509003FCF9F /* ViewController.m */; };
 		FD618B0420A98509003FCF9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD618B0220A98509003FCF9F /* Main.storyboard */; };
@@ -35,11 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A096B9E0E9DEE15E7461318 /* Pods-QFReactiveCocoaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFReactiveCocoaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFReactiveCocoaDemo/Pods-QFReactiveCocoaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		205CD63ED5CB3E3FE9BBA9E1 /* Pods-QFReactiveCocoaDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFReactiveCocoaDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFReactiveCocoaDemoTests/Pods-QFReactiveCocoaDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50240060325897173EAE42DC /* libPods-QFReactiveCocoaDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFReactiveCocoaDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D25FE10FB982C40A7E5FBF7 /* Pods-QFReactiveCocoaDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFReactiveCocoaDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFReactiveCocoaDemoUITests/Pods-QFReactiveCocoaDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		721776DFB49EB04F9B1EBC91 /* libPods-QFReactiveCocoaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFReactiveCocoaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		948593F8A2B4A8832911BBA3 /* Pods-QFReactiveCocoaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFReactiveCocoaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFReactiveCocoaDemo/Pods-QFReactiveCocoaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BF535DE264CE49BD6D7E4834 /* Pods-QFReactiveCocoaDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFReactiveCocoaDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFReactiveCocoaDemoUITests/Pods-QFReactiveCocoaDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1A9B393C254D5883FB0BE06 /* libPods-QFReactiveCocoaDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QFReactiveCocoaDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61167A44BE7E404C2A96AAF /* Pods-QFReactiveCocoaDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFReactiveCocoaDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFReactiveCocoaDemoTests/Pods-QFReactiveCocoaDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD618AF920A98509003FCF9F /* QFReactiveCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFReactiveCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD618AFC20A98509003FCF9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD618AFD20A98509003FCF9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FD618AFF20A98509003FCF9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD618B0020A98509003FCF9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD618B0020A98509003FCF9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
 		FD618B0320A98509003FCF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD618B0520A9850A003FCF9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD618B0820A9850A003FCF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B360836519B02FA61E6BDE /* libPods-QFReactiveCocoaDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2A037D767EF3468A11C102 /* libPods-QFReactiveCocoaDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FBBC32DCAB28595266A51D /* libPods-QFReactiveCocoaDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41B023810C6FA6CD8350CE42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A096B9E0E9DEE15E7461318 /* Pods-QFReactiveCocoaDemo.debug.xcconfig */,
+				948593F8A2B4A8832911BBA3 /* Pods-QFReactiveCocoaDemo.release.xcconfig */,
+				205CD63ED5CB3E3FE9BBA9E1 /* Pods-QFReactiveCocoaDemoTests.debug.xcconfig */,
+				D61167A44BE7E404C2A96AAF /* Pods-QFReactiveCocoaDemoTests.release.xcconfig */,
+				6D25FE10FB982C40A7E5FBF7 /* Pods-QFReactiveCocoaDemoUITests.debug.xcconfig */,
+				BF535DE264CE49BD6D7E4834 /* Pods-QFReactiveCocoaDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9504765EFE8622CDE1286D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				721776DFB49EB04F9B1EBC91 /* libPods-QFReactiveCocoaDemo.a */,
+				D1A9B393C254D5883FB0BE06 /* libPods-QFReactiveCocoaDemoTests.a */,
+				50240060325897173EAE42DC /* libPods-QFReactiveCocoaDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD618AF020A98509003FCF9F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				FD618B1420A9850A003FCF9F /* QFReactiveCocoaDemoTests */,
 				FD618B1F20A9850A003FCF9F /* QFReactiveCocoaDemoUITests */,
 				FD618AFA20A98509003FCF9F /* Products */,
+				41B023810C6FA6CD8350CE42 /* Pods */,
+				9504765EFE8622CDE1286D6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD618B2520A9850A003FCF9F /* Build configuration list for PBXNativeTarget "QFReactiveCocoaDemo" */;
 			buildPhases = (
+				6C42A23208879EC2D2E0DC07 /* [CP] Check Pods Manifest.lock */,
 				FD618AF520A98509003FCF9F /* Sources */,
 				FD618AF620A98509003FCF9F /* Frameworks */,
 				FD618AF720A98509003FCF9F /* Resources */,
@@ -156,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD618B2820A9850A003FCF9F /* Build configuration list for PBXNativeTarget "QFReactiveCocoaDemoTests" */;
 			buildPhases = (
+				2FD2E5E50A7F0FF88E631C5E /* [CP] Check Pods Manifest.lock */,
 				FD618B0D20A9850A003FCF9F /* Sources */,
 				FD618B0E20A9850A003FCF9F /* Frameworks */,
 				FD618B0F20A9850A003FCF9F /* Resources */,
@@ -174,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD618B2B20A9850A003FCF9F /* Build configuration list for PBXNativeTarget "QFReactiveCocoaDemoUITests" */;
 			buildPhases = (
+				7EBAE7EB9E6DC26CB97E5E89 /* [CP] Check Pods Manifest.lock */,
 				FD618B1820A9850A003FCF9F /* Sources */,
 				FD618B1920A9850A003FCF9F /* Frameworks */,
 				FD618B1A20A9850A003FCF9F /* Resources */,
@@ -256,6 +299,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD2E5E50A7F0FF88E631C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QFReactiveCocoaDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C42A23208879EC2D2E0DC07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QFReactiveCocoaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EBAE7EB9E6DC26CB97E5E89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QFReactiveCocoaDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD618AF520A98509003FCF9F /* Sources */ = {
@@ -431,6 +531,7 @@
 		};
 		FD618B2620A9850A003FCF9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A096B9E0E9DEE15E7461318 /* Pods-QFReactiveCocoaDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +549,7 @@
 		};
 		FD618B2720A9850A003FCF9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948593F8A2B4A8832911BBA3 /* Pods-QFReactiveCocoaDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +567,7 @@
 		};
 		FD618B2920A9850A003FCF9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205CD63ED5CB3E3FE9BBA9E1 /* Pods-QFReactiveCocoaDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +587,7 @@
 		};
 		FD618B2A20A9850A003FCF9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61167A44BE7E404C2A96AAF /* Pods-QFReactiveCocoaDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +607,7 @@
 		};
 		FD618B2C20A9850A003FCF9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D25FE10FB982C40A7E5FBF7 /* Pods-QFReactiveCocoaDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZK6T3AW3W;
@@ -521,6 +626,7 @@
 		};
 		FD618B2D20A9850A003FCF9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF535DE264CE49BD6D7E4834 /* Pods-QFReactiveCocoaDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZK6T3AW3W;

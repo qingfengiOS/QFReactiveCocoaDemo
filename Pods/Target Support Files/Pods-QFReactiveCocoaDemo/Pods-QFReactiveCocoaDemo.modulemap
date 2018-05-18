@@ -1,0 +1,6 @@
+module Pods_QFReactiveCocoaDemo [system] {
+  umbrella header "Pods-QFReactiveCocoaDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
