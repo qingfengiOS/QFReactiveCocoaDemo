@@ -18,6 +18,7 @@
 		FD618B0C20A9850A003FCF9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD618B0B20A9850A003FCF9F /* main.m */; };
 		FD618B1620A9850A003FCF9F /* QFReactiveCocoaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD618B1520A9850A003FCF9F /* QFReactiveCocoaDemoTests.m */; };
 		FD618B2120A9850A003FCF9F /* QFReactiveCocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD618B2020A9850A003FCF9F /* QFReactiveCocoaDemoUITests.m */; };
+		FDDD2B4E20B26BC1006049CF /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDD2B4D20B26BC1006049CF /* LoginViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		FD618B1C20A9850A003FCF9F /* QFReactiveCocoaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFReactiveCocoaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD618B2020A9850A003FCF9F /* QFReactiveCocoaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFReactiveCocoaDemoUITests.m; sourceTree = "<group>"; };
 		FD618B2220A9850A003FCF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDD2B4C20B26BC1006049CF /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		FDDD2B4D20B26BC1006049CF /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 		FD618AFB20A98509003FCF9F /* QFReactiveCocoaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FDDD2B4A20B26BAB006049CF /* View */,
+				FDDD2B4B20B26BAB006049CF /* ViewModel */,
 				FD618AFC20A98509003FCF9F /* AppDelegate.h */,
 				FD618AFD20A98509003FCF9F /* AppDelegate.m */,
 				FD618AFF20A98509003FCF9F /* ViewController.h */,
@@ -170,6 +175,22 @@
 				FD618B2220A9850A003FCF9F /* Info.plist */,
 			);
 			path = QFReactiveCocoaDemoUITests;
+			sourceTree = "<group>";
+		};
+		FDDD2B4A20B26BAB006049CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDDD2B4B20B26BAB006049CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDDD2B4C20B26BC1006049CF /* LoginViewModel.h */,
+				FDDD2B4D20B26BC1006049CF /* LoginViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDD2B4E20B26BC1006049CF /* LoginViewModel.m in Sources */,
 				FD618B0120A98509003FCF9F /* ViewController.m in Sources */,
 				FD618B0C20A9850A003FCF9F /* main.m in Sources */,
 				FD618AFE20A98509003FCF9F /* AppDelegate.m in Sources */,

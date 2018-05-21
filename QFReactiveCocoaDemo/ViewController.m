@@ -2,15 +2,21 @@
 //  ViewController.m
 //  QFReactiveCocoaDemo
 //
-//  Created by 李一平 on 2018/5/14.
+//  Created by qingfengiOS on 2018/5/14.
 //  Copyright © 2018年 slwy. All rights reserved.
 //
 
 #import "ViewController.h"
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "LoginViewModel.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *userNameTF;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTF;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
+
+@property (nonatomic, strong) LoginViewModel *loginViewModel;
 @end
 
 @implementation ViewController
@@ -25,6 +31,8 @@
     [self combineLatest];
     
     [self merge];
+    
+    [self bindViewModel];
 }
 
 - (void)uppercaseString {
@@ -120,4 +128,33 @@
      信号合并就理解起来就比较简单了，merge信号量规则比较简单，就是把多个信号量，放入数组中通过merge函数来合并数组中的所有信号量为一个。类比一下，合并后，无论哪个水管中有水都会在merge产生的水管中流出来的。
      */
 }
+
+
+//MARK:--MVVM+RAC登录实例
+- (void)bindViewModel {
+    NSLog(@"------------------------------------");
+    _loginViewModel = [[LoginViewModel alloc]init];
+    
+    RAC(self.loginViewModel, useName) = _userNameTF.rac_textSignal;
+    RAC(self.loginViewModel, password) = _passwordTF.rac_textSignal;
+    RAC(self.loginBtn, enabled) = [self.loginViewModel isValid];
+    
+    [self.loginViewModel.sucessObject subscribeNext:^(id x) {
+        NSLog(@"登录成功：%@",x);
+    }];
+    
+    [self.loginViewModel.failureObject subscribeNext:^(id x) {
+        NSLog(@"登录失败：%@",x);
+    }];
+    
+    [self.loginViewModel.errorObject subscribeNext:^(id x) {
+        NSLog(@"登录出错：%@",x);
+    }];
+    
+    [[_loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+        
+        [self.loginViewModel login];
+    }];
+}
+
 @end
